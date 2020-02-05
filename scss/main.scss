@@ -1,0 +1,215 @@
+// remember to npm run sass to compile scss to css
+//go to config.scss and change colors if needed (1/29/2020)
+@import "config";
+
+main {
+  //used for stick footers
+  min-height: calc(100vh - 60px);
+}
+
+body {
+  background: $primary-color;
+  color: $text-color;
+  height: 100%;
+  margin: 0;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+
+//navbar
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darken($primary-color, 2);
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: $text-color;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-weight: 400;
+  @include easeOut();
+
+  &.contact {
+    margin-left: -5px;
+  }
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.nav-btn {
+  margin: 8px 100px 0px 0px;
+  a:hover {
+    color: $secondary-color;
+  }
+}
+
+.nav-item {
+  &.current > a {
+    color: $secondary-color;
+  }
+}
+
+.nav-logo {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: -1px; //use to adjust height of logo
+  margin-left: 100px;
+}
+
+//parallax img
+
+.pimg1 {
+  position: relative;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  /*
+    background-attached: fixed; = parallax
+    background-attached: scroll; = normal
+  */
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  padding-top: 100px;
+  padding-bottom: 750px;
+  opacity: 0.9;
+  background-image: url("../img/starrybackground.jpg");
+  min-height: 100%;
+  background-position-y: 35%;
+}
+
+.ptext {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  color: #fffdfd;
+  font-size: 32px;
+  letter-spacing: 4px;
+}
+
+/*.ptext .border {
+  background-color: #111;
+  color: #ffffff;
+  padding: 17px;
+}
+*/
+.ptext .trans {
+  background-color: transparent;
+}
+
+.section {
+  text-align: center;
+  padding: 30px 80px;
+  background-color: darken($primary-color, 8);
+}
+
+@media (max-width: 568px) {
+  .pimg1 {
+    background-attachment: scroll;
+  }
+}
+
+//Headings
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 200;
+  text-align: center;
+
+  &.lg-heading {
+    margin-top: 2rem;
+    font-size: 1.7rem;
+    font-weight: 400;
+  }
+
+  &.sm-heading {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 250;
+  }
+}
+
+//Projects
+
+//Publications
+
+//People
+
+//Press
+
+//Resources
+
+//Contact
+
+#contact h2 {
+  margin-top: 50px;
+}
+form {
+  text-align: center;
+  margin-top: 50px;
+  @include easeInOut();
+}
+
+.form-control {
+  width: 600px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid $text-color;
+  color: $text-color;
+  font-size: 15px;
+  margin-bottom: 16px;
+  font-weight: 250;
+}
+
+input {
+  height: 45px;
+}
+
+form .submit {
+  background-color: #8ca8ed;
+  border-color: transparent;
+  color: #000000;
+  font-size: 17px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: #7396ed;
+    cursor: pointer;
+  }
+}
+
+// Footer
+footer {
+  text-align: center;
+  background-color: darken($primary-color, 2);
+  font-size: 14px;
+  padding: 1rem;
+  color: $text-color;
+  height: 60px;
+}
+
+@import "mobile";
