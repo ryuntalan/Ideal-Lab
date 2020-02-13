@@ -1,12 +1,18 @@
 $primary-color: #ffffff;
 $secondary-color: #5680e9;
 $text-color: #333;
+$btn-color: #5680e9;
+$card-color: #c0bfbf;
 
 @mixin easeOut {
   transition: all 0.3s ease-out;
 }
 @mixin easeInOut {
   transition: all 2s ease-in-out;
+}
+
+@mixin appear {
+  transition: all 1s ease-out;
 }
 
 //Media Query Mixins
