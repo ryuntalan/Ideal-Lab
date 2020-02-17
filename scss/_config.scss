@@ -1,8 +1,10 @@
 $primary-color: #ffffff;
-$secondary-color: #5680e9;
+$main-color: #f7f5e6;
+$secondary-color: #333a56;
+$tertiary-color: #52658f;
+$fourth-color: #e8e8e8;
 $text-color: #333;
-$btn-color: #5680e9;
-$card-color: #c0bfbf;
+$btn-color: #52658f;
 
 @mixin easeOut {
   transition: all 0.3s ease-out;

@@ -19,7 +19,12 @@ body {
 
 * {
   box-sizing: border-box;
-  font-family: "Helvetica Neue", "Segoe UI", Tahoma, Verdana, sans-serif;
+  font-family: "Helvetica", "Segoe UI", Tahoma, Verdana, sans-serif;
+}
+
+hr.line {
+  width: 1100px;
+  border-top: 1px solid $secondary-color;
 }
 
 //navbar
@@ -42,7 +47,7 @@ li a {
   text-align: center;
   padding: 14px 14px;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 350;
   @include easeOut();
 
   &.contact {
@@ -74,14 +79,14 @@ li a:hover {
   margin-left: 100px;
 }
 
-//parallax img Home Page
+//parallax & Home Page
 
 .welcome-message {
   @include appear();
   margin-bottom: 30px;
 }
 
-.pimg1 {
+.parralax {
   position: relative;
 
   background-position: center;
@@ -97,7 +102,7 @@ li a:hover {
 
 .pimg1 {
   padding-top: 100px;
-  padding-bottom: 750px;
+  padding-bottom: 1000px;
   opacity: 0.9;
   background-image: url("../img/starrybackground.jpg");
   min-height: 100%;
@@ -106,12 +111,12 @@ li a:hover {
 
 .ptext {
   position: absolute;
-  top: 20%;
+  top: 12%;
   width: 100%;
   text-align: center;
-  color: #fffdfd;
+  color: $primary-color;
   font-size: 35px;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 1px;
 }
 
@@ -119,7 +124,7 @@ li a:hover {
   opacity: 0.9;
   border-radius: 20px;
   background-color: #111;
-  color: #ffffff;
+  color: $primary-color;
   margin: auto;
   padding: 15px;
   width: 700px;
@@ -133,17 +138,6 @@ li a:hover {
   text-align: center;
   padding: 30px 80px;
   background-color: darken($primary-color, 8);
-}
-
-.lab-title {
-  font-size: 22px;
-  font-weight: 400;
-}
-
-.lab-desc {
-  text-align: left;
-  font-weight: 300;
-  font-size: 17px;
 }
 
 .home-btn {
@@ -166,6 +160,56 @@ li a:hover {
   .pimg1 {
     background-attachment: scroll;
   }
+}
+
+//news stuff
+
+.news-border {
+  opacity: 0.9;
+  border-radius: 20px;
+  background-color: #111;
+  color: #ffffff;
+  margin: 150px auto;
+  padding: 30px;
+  width: 1200px;
+}
+
+.lab-title {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.lab-desc {
+  text-align: left;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.lab-news {
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.lab-article-section {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.article-title {
+  font-weight: 400;
+}
+
+.article-desc {
+  text-align: left;
+}
+
+.lab-article {
+  font-size: 16px;
+  padding: 25px;
+  margin: 10px;
+  background-color: darken(#111, 2);
+  border-radius: 20px;
 }
 
 //Headings
@@ -191,22 +235,77 @@ h3 {
 
 //Projects
 
+.project-sec {
+  display: flex;
+  margin: auto;
+  width: 1200px;
+  padding: 50px;
+}
+
+.project-img {
+  width: 420px;
+  height: 420px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 0px 50px;
+}
+
+.project-title {
+  font-weight: 400;
+}
+
+.project {
+  margin: auto;
+}
+
 //Publications
 
 //People
-.professor {
-  margin: 40px 40px;
+
+.person-title {
+  font-size: 29px;
+  font-weight: 400;
 }
+
+.professor {
+  background-color: darken($tertiary-color, 2);
+  padding: 100px;
+}
+
 .info-card {
-  background-color: $card-color;
-  border-radius: 12px;
+  background-color: $fourth-color;
+  border-radius: 10px;
   color: #000000;
   margin: auto;
   padding: 15px;
-  width: 1200px;
+  width: auto;
+  display: flex;
+  justify-content: space-around;
 }
 
-//Press
+.person-desc {
+  margin: 60px;
+  line-height: 35px;
+}
+
+.students {
+  background-color: $tertiary-color;
+  padding: 100px;
+}
+
+.ppl-heading {
+  font-weight: 500;
+  font-size: 50px;
+  margin-bottom: 25px;
+  color: $fourth-color;
+}
+
+.person-img {
+  width: 350px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
 
 //Resources
 
@@ -246,7 +345,7 @@ form .submit {
   border-radius: 5px;
 
   &:hover {
-    background-color: #7396ed;
+    background-color: $tertiary-color;
     cursor: pointer;
   }
 }

@@ -5,6 +5,49 @@
 // Desktops & Laptops
 @include mediaLg {
   @import "menu";
+  .info-card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .person-img {
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: -30px;
+  }
+
+  //news
+  .news-border {
+    margin: 15px auto;
+    padding: 20px;
+    width: 700px;
+  }
+
+  .lab-article-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .article-title {
+    font-size: 20px;
+  }
+
+  .lab-news {
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+
+  .lab-article {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 10px;
+    margin: 10px;
+  }
 }
 
 // Tablets & Small Laptops
@@ -13,6 +56,60 @@
 
   .form-control {
     width: 400px;
+  }
+
+  .border {
+    width: 500px;
+  }
+
+  .info-card {
+    display: block;
+    font-size: 14px;
+  }
+
+  .person-img {
+    width: 270px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: -20px;
+  }
+
+  .person-desc {
+    margin: 30px;
+    line-height: 28px;
+  }
+
+  //news
+  .news-border {
+    margin: 15px auto;
+    padding: 20px;
+    width: 500px;
+  }
+
+  .lab-desc {
+    text-align: left;
+    font-weight: 300;
+    font-size: 14px;
+  }
+
+  .lab-article-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lab-news {
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+
+  .lab-article {
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px;
+    margin: 10px;
   }
 }
 
@@ -37,6 +134,69 @@
       margin-bottom: 1rem;
     }
   }
+  //people
+
+  .students {
+    padding: 60px 10px;
+  }
+
+  .professor {
+    padding: 60px 10px;
+  }
+  .info-card {
+    width: 300px;
+    display: block;
+  }
+
+  .person-img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: -2px;
+  }
+
+  .person-desc {
+    margin: 10px;
+    line-height: 28px;
+  }
+
+  //lab news
+  .news-border {
+    margin: 15px auto;
+    padding: 20px;
+    width: 350px;
+  }
+
+  .lab-desc {
+    text-align: left;
+    font-weight: 300;
+    font-size: 12px;
+  }
+
+  .lab-news {
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+
+  .lab-article-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lab-article {
+    font-size: 12px;
+    font-weight: 300;
+    padding: 10px;
+    margin: 10px;
+  }
 
   //make home screen mobile
+  .border {
+    width: 350px;
+  }
 }
