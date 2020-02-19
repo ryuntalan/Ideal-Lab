@@ -9,3 +9,5 @@ Ideate: Brainstormed/ researched possible pages and resources needed for a lab w
 Prototyped: Lo-fi Wireframing. Started developing the website. Picked-out typography (Helvetica - simple, neutral) and color palette(clean and prof colors).
 
 Test: Weekly check-ins with Dr. Bencharit and constantly adding new content to the website. 
+
+Here's a link to the website that's currently in development: https://ryuntalan.github.io/Ideal-Lab/
