@@ -1,4 +1,4 @@
-I am developing the IDEAL Lab website for my research internsip with Dr. Bencharit. I am using HTML, CSS, and JavaScript. I approached this project with the design thinking perspective. 
+I am developing the IDEAL Lab website for my research internship with Dr. Bencharit. I am using HTML, CSS, and JavaScript. I approached this project with a design thinking perspective. 
 
 Empathy: understand Dr. Bencharit's needs for the website as well as what future students will want
 
