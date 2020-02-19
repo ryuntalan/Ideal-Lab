@@ -24,7 +24,8 @@ body {
 
 hr.line {
   width: 1100px;
-  border-top: 1px solid $secondary-color;
+  border-top: 2px solid $secondary-color;
+  opacity: 0.2;
 }
 
 //navbar
@@ -48,6 +49,7 @@ li a {
   padding: 14px 14px;
   text-decoration: none;
   font-weight: 350;
+  letter-spacing: 0.07em;
   @include easeOut();
 
   &.contact {
@@ -73,9 +75,10 @@ li a:hover {
 }
 
 .nav-logo {
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 600;
-  margin-top: -1px; //use to adjust height of logo
+  letter-spacing: 0.02em;
+  margin-top: -4px; //use to adjust height of logo
   margin-left: 100px;
 }
 
