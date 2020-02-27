@@ -203,6 +203,16 @@ h3 {
 .project {
   margin: auto; }
 
+.book-shelf {
+  background-image: url("../img/shelf.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 800px;
+  margin-bottom: -500px; }
+
+#last-shelf {
+  margin-bottom: -50px; }
+
 .person-title {
   font-size: 29px;
   font-weight: 400; }
