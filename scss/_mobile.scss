@@ -48,6 +48,15 @@
     padding: 10px;
     margin: 10px;
   }
+
+  //bookshelf
+
+  .book-img {
+    width: 180px;
+  }
+  .shelf-img {
+    margin-top: 400px;
+  }
 }
 
 // Tablets & Small Laptops
@@ -73,7 +82,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    margin-bottom: -20px;
+    margin-bottom: -10px;
   }
 
   .person-desc {
@@ -110,6 +119,13 @@
     font-weight: 300;
     padding: 10px;
     margin: 10px;
+  }
+
+  .book-img {
+    margin: auto 30px;
+  }
+  .shelf-img {
+    margin-top: 400px;
   }
 }
 
@@ -156,7 +172,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    margin-bottom: -2px;
+    margin-bottom: -10px;
   }
 
   .person-desc {
@@ -198,5 +214,27 @@
   //make home screen mobile
   .border {
     width: 350px;
+  }
+
+  //publications
+  .book-img {
+    width: 200px;
+    margin: 40px auto;
+  }
+
+  .books {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: static;
+    margin-top: 70px;
+  }
+
+  .shelf-img {
+    display: none;
+  }
+
+  footer {
+    display: none;
   }
 }

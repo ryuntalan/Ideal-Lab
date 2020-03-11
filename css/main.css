@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Cera Pro";
+  src: url("fonts/CeraPro-Regular.eot");
+  src: local("fonts/Cera Pro Regular"), local("CeraPro-Regular"), url("fonts/CeraPro-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/CeraPro-Regular.woff") format("woff"), url("fonts/CeraPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
 main {
   min-height: calc(100vh - 60px); }
 
@@ -11,7 +18,7 @@ body {
 
 * {
   box-sizing: border-box;
-  font-family: "Helvetica", "Segoe UI", Tahoma, Verdana, sans-serif; }
+  font-family: "Cera Pro", "Helvetica", "Segoe UI", Tahoma, Verdana, sans-serif; }
 
 hr.line {
   width: 1100px;
@@ -34,7 +41,7 @@ li a {
   text-align: center;
   padding: 14px 14px;
   text-decoration: none;
-  font-weight: 350;
+  font-weight: 800;
   letter-spacing: 0.07em;
   transition: all 0.3s ease-out; }
   li a.contact {
@@ -52,10 +59,10 @@ li a:hover {
   color: #333a56; }
 
 .nav-logo {
-  font-size: 21px;
+  font-size: 1.7em;
   font-weight: 600;
   letter-spacing: 0.02em;
-  margin-top: -4px;
+  margin-top: -7px;
   margin-left: 100px; }
 
 .welcome-message {
@@ -83,12 +90,12 @@ li a:hover {
 
 .ptext {
   position: absolute;
-  top: 12%;
+  top: 7\%;
   width: 100%;
   text-align: center;
   color: #ffffff;
-  font-size: 35px;
-  font-weight: 300;
+  font-size: 42px;
+  font-weight: bolder;
   letter-spacing: 1px; }
 
 .border {
@@ -135,16 +142,21 @@ li a:hover {
   width: 1200px; }
 
 .lab-title {
-  font-size: 22px;
+  font-size: 28px;
   font-weight: 400; }
 
 .lab-desc {
   text-align: left;
-  font-weight: 300;
-  font-size: 17px; }
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  margin: 15px auto;
+  width: 580px;
+  font-size: 17px;
+  line-height: 1.8em; }
 
 .lab-news {
-  font-size: 35px;
+  font-size: 28px;
   font-weight: 400;
   letter-spacing: 1px; }
 
@@ -190,6 +202,9 @@ h3 {
   width: 1200px;
   padding: 50px; }
 
+.project-desc {
+  line-height: 1.8em; }
+
 .project-img {
   width: 420px;
   height: 420px;
@@ -203,17 +218,54 @@ h3 {
 .project {
   margin: auto; }
 
-.book-shelf {
-  background-image: url("../img/shelf.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 800px;
-  margin-bottom: -500px; }
+.books {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  right: 0px;
+  left: 0px;
+  top: 220px;
+  margin: auto;
+  position: absolute; }
 
-#last-shelf {
-  margin-bottom: -50px; }
+.books2 {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  right: 0px;
+  left: 0px;
+  top: 690px;
+  margin: auto;
+  position: absolute; }
+
+.single-book {
+  position: relative;
+  text-align: center; }
+
+.book-title {
+  z-index: 5;
+  font-size: 17px;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.book-img {
+  width: 170px;
+  margin: auto 50px; }
+
+.shelf-img {
+  position: relative;
+  z-index: -5;
+  margin-top: 320px; }
+
+.booksonshelf {
+  display: flex;
+  justify-content: center; }
 
 .person-title {
+  margin-top: 20px;
   font-size: 29px;
   font-weight: 400; }
 
@@ -232,8 +284,10 @@ h3 {
   justify-content: space-around; }
 
 .person-desc {
-  margin: 60px;
-  line-height: 35px; }
+  margin: 0px 80px;
+  line-height: 35px;
+  font-size: 17px;
+  font-weight: 100; }
 
 .students {
   background-color: #52658f;
@@ -284,13 +338,21 @@ form .submit {
     background-color: #52658f;
     cursor: pointer; }
 
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+.site-content {
+  flex: 1; }
+
 footer {
   text-align: center;
   background-color: #fafafa;
   font-size: 14px;
   padding: 1rem;
   color: #333;
-  height: 60px; }
+  height: 50px; }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .menu-btn {
@@ -405,7 +467,11 @@ footer {
     font-size: 18px;
     font-weight: 300;
     padding: 10px;
-    margin: 10px; } }
+    margin: 10px; }
+  .book-img {
+    width: 180px; }
+  .shelf-img {
+    margin-top: 400px; } }
 
 @media screen and (max-width: 768px) {
   .menu-btn {
@@ -505,7 +571,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    margin-bottom: -20px; }
+    margin-bottom: -10px; }
   .person-desc {
     margin: 30px;
     line-height: 28px; }
@@ -528,7 +594,11 @@ footer {
     font-size: 14px;
     font-weight: 300;
     padding: 10px;
-    margin: 10px; } }
+    margin: 10px; }
+  .book-img {
+    margin: auto 30px; }
+  .shelf-img {
+    margin-top: 400px; } }
 
 @media screen and (max-width: 500px) {
   .menu-btn {
@@ -642,7 +712,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    margin-bottom: -2px; }
+    margin-bottom: -10px; }
   .person-desc {
     margin: 10px;
     line-height: 28px; }
@@ -667,4 +737,17 @@ footer {
     padding: 10px;
     margin: 10px; }
   .border {
-    width: 350px; } }
+    width: 350px; }
+  .book-img {
+    width: 200px;
+    margin: 40px auto; }
+  .books {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: static;
+    margin-top: 70px; }
+  .shelf-img {
+    display: none; }
+  footer {
+    display: none; } }
