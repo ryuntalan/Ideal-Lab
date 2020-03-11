@@ -388,6 +388,54 @@ h3 {
 
 //Resources
 
+#resources {
+  border-collapse: collapse;
+
+  width: 60%;
+  display: flex;
+  margin: 40px auto;
+  justify-content: center;
+}
+
+#resources td,
+#resources th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.resource-name {
+  width: 20%;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+#resources tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#resources a {
+  color: $text-color;
+  display: block;
+  text-decoration: none;
+}
+
+#resources th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: $tertiary-color;
+  color: white;
+}
+
+tr[data-href] {
+  cursor: pointer;
+}
+
+#resources tr:hover {
+  background-color: #c2c2c2;
+}
+
 //Contact
 
 #contact h2 {

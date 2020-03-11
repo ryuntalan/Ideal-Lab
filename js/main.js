@@ -1,3 +1,14 @@
+//data-href
+
+document.addEventListener("DOMContentLoaded", () => {
+  const rows = document.querySelectorAll("tr[data-href]");
+  rows.forEach(row => {
+    row.addEventListener("click", () => {
+      window.open(row.dataset.href, "_blank");
+    });
+  });
+});
+
 window.sr = ScrollReveal();
 
 sr.reveal(".container", {
