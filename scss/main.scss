@@ -125,7 +125,7 @@ li a:hover {
 
 .ptext {
   position: absolute;
-  top: 7\%;
+  top: 7%;
   width: 100%;
   text-align: center;
   color: $primary-color;
@@ -258,6 +258,7 @@ h3 {
 .project-sec {
   display: flex;
   margin: auto;
+  justify-content: space-evenly;
   width: 1200px;
   padding: 50px;
 }
@@ -357,7 +358,7 @@ h3 {
 
   width: auto;
   display: flex;
-  justify-content: space-around; //check space evenly
+  justify-content: space-evenly; //check space evenly
 }
 
 .person-desc {
