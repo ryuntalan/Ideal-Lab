@@ -177,6 +177,13 @@ li a:hover {
   background-color: #0c0c0c;
   border-radius: 20px; }
 
+.news-link {
+  text-decoration: none;
+  color: #ffffff; }
+  .news-link:visited {
+    text-decoration: none;
+    color: #ffffff; }
+
 h1,
 h2,
 h3 {
@@ -248,18 +255,22 @@ h3 {
   font-size: 17px;
   color: #ffffff;
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%); }
 
 .book-img {
-  width: 170px;
-  margin: auto 50px; }
+  width: 250px;
+  margin: auto 35px; }
+
+.books2 {
+  margin-top: 110px; }
 
 .shelf-img {
   position: relative;
   z-index: -5;
-  margin-top: 320px; }
+  margin-top: 400px;
+  width: 1200px; }
 
 .booksonshelf {
   display: flex;
@@ -510,9 +521,11 @@ footer {
     padding: 10px;
     margin: 10px; }
   .book-img {
-    width: 180px; }
+    width: 220px; }
   .shelf-img {
-    margin-top: 400px; } }
+    margin-top: 425px; }
+  .books2 {
+    margin-top: 120px; } }
 
 @media screen and (max-width: 768px) {
   .menu-btn {
@@ -638,9 +651,12 @@ footer {
     padding: 10px;
     margin: 10px; }
   .book-img {
+    width: 180px;
     margin: auto 30px; }
   .shelf-img {
-    margin-top: 400px; } }
+    margin-top: 400px; }
+  .book-title {
+    font-size: 14px; } }
 
 @media screen and (max-width: 500px) {
   .menu-btn {
@@ -789,7 +805,20 @@ footer {
     justify-content: center;
     position: static;
     margin-top: 70px; }
+  .books2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: static;
+    margin-top: 70px; }
   .shelf-img {
     display: none; }
+  .book-title {
+    font-size: 15px;
+    color: #ffffff;
+    width: 175px;
+    top: 46%;
+    left: 54%;
+    transform: translate(-50%, -50%); }
   footer {
     display: none; } }

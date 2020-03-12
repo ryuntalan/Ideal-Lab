@@ -55,10 +55,14 @@
   //bookshelf
 
   .book-img {
-    width: 180px;
+    width: 220px;
   }
   .shelf-img {
-    margin-top: 400px;
+    margin-top: 425px;
+  }
+
+  .books2 {
+    margin-top: 120px;
   }
 }
 
@@ -128,10 +132,15 @@
   }
 
   .book-img {
+    width: 180px;
     margin: auto 30px;
   }
   .shelf-img {
     margin-top: 400px;
+  }
+
+  .book-title {
+    font-size: 14px;
   }
 }
 
@@ -236,8 +245,25 @@
     margin-top: 70px;
   }
 
+  .books2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: static;
+    margin-top: 70px;
+  }
+
   .shelf-img {
     display: none;
+  }
+
+  .book-title {
+    font-size: 15px;
+    color: $primary-color;
+    width: 175px;
+    top: 46%;
+    left: 54%;
+    transform: translate(-50%, -50%);
   }
 
   footer {
