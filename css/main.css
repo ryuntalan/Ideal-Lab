@@ -125,7 +125,7 @@ li a:hover {
   font-weight: 400;
   letter-spacing: 1px; }
   .home-btn:hover {
-    background-color: #52658f;
+    background-color: #dee8ff;
     cursor: pointer; }
 
 @media (max-width: 568px) {
@@ -368,14 +368,14 @@ input {
   height: 45px; }
 
 form .submit {
-  background-color: #c2c2c2;
+  background-color: #dee8ff;
   border-color: transparent;
   color: #000000;
   font-size: 17px;
   margin-bottom: 30px;
   border-radius: 5px; }
   form .submit:hover {
-    background-color: #52658f;
+    background-color: #91b4ff;
     cursor: pointer; }
 
 .site {

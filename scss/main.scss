@@ -465,7 +465,7 @@ input {
 }
 
 form .submit {
-  background-color: #c2c2c2;
+  background-color: $btn-color;
   border-color: transparent;
   color: #000000;
   font-size: 17px;
@@ -473,7 +473,7 @@ form .submit {
   border-radius: 5px;
 
   &:hover {
-    background-color: $tertiary-color;
+    background-color: #91b4ff;
     cursor: pointer;
   }
 }
