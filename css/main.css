@@ -764,10 +764,6 @@ footer {
     width: 335px; }
   .lab-title {
     font-size: 24px; }
-  .lab-news {
-    font-size: 24px; }
-  .news-border {
-    margin-top: 50px; }
   .students {
     padding: 60px 10px; }
   .professor {
@@ -790,13 +786,14 @@ footer {
   .news-border {
     margin: 15px auto;
     padding: 20px;
-    width: 350px; }
+    width: 350px;
+    margin-top: 45px; }
   .lab-desc {
     text-align: left;
     font-weight: 300;
     font-size: 12px; }
   .lab-news {
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 400;
     letter-spacing: 1px; }
   .lab-article-section {
