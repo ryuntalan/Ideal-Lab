@@ -389,6 +389,9 @@ form .submit {
     background-color: #91b4ff;
     cursor: pointer; }
 
+#more {
+  display: none; }
+
 .site {
   display: flex;
   min-height: 100vh;
@@ -408,7 +411,7 @@ footer {
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .menu-btn {
     position: fixed;
-    z-index: 3;
+    z-index: 10;
     right: 35px;
     top: 35px;
     background-color: #333;
@@ -438,7 +441,7 @@ footer {
     top: 0;
     width: 100%;
     visibility: hidden;
-    z-index: 1; }
+    z-index: 8; }
     .menu.show {
       visibility: visible;
       background: #f7f7f7;
@@ -530,7 +533,7 @@ footer {
 @media screen and (max-width: 768px) {
   .menu-btn {
     position: fixed;
-    z-index: 3;
+    z-index: 10;
     right: 35px;
     top: 35px;
     background-color: #333;
@@ -560,7 +563,7 @@ footer {
     top: 0;
     width: 100%;
     visibility: hidden;
-    z-index: 1; }
+    z-index: 8; }
     .menu.show {
       visibility: visible;
       background: #f7f7f7;
@@ -661,7 +664,7 @@ footer {
 @media screen and (max-width: 500px) {
   .menu-btn {
     position: fixed;
-    z-index: 3;
+    z-index: 10;
     right: 35px;
     top: 35px;
     background-color: #333;
@@ -691,7 +694,7 @@ footer {
     top: 0;
     width: 100%;
     visibility: hidden;
-    z-index: 1; }
+    z-index: 8; }
     .menu.show {
       visibility: visible;
       background: #f7f7f7;
@@ -755,6 +758,16 @@ footer {
   h3.sm-heading {
     font-size: 0.8rem;
     margin-bottom: 1rem; }
+  .welcome-message {
+    font-size: 32px; }
+  .lab-desc {
+    width: 335px; }
+  .lab-title {
+    font-size: 24px; }
+  .lab-news {
+    font-size: 24px; }
+  .news-border {
+    margin-top: 50px; }
   .students {
     padding: 60px 10px; }
   .professor {
@@ -821,4 +834,6 @@ footer {
     left: 54%;
     transform: translate(-50%, -50%); }
   footer {
-    display: none; } }
+    display: none; }
+  #resources {
+    width: 90%; } }

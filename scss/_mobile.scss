@@ -165,6 +165,28 @@
       margin-bottom: 1rem;
     }
   }
+
+  //home
+
+  .welcome-message {
+    font-size: 32px;
+  }
+
+  .lab-desc {
+    width: 335px;
+  }
+
+  .lab-title {
+    font-size: 24px;
+  }
+
+  .lab-news {
+    font-size: 24px;
+  }
+
+  .news-border {
+    margin-top: 50px;
+  }
   //people
 
   .students {
@@ -268,5 +290,11 @@
 
   footer {
     display: none;
+  }
+
+  //resources
+
+  #resources {
+    width: 90%;
   }
 }

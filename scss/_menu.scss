@@ -1,6 +1,6 @@
 .menu-btn {
   position: fixed;
-  z-index: 3;
+  z-index: 10;
   right: 35px;
   top: 35px;
   background-color: $text-color;
@@ -52,7 +52,7 @@
   top: 0;
   width: 100%;
   visibility: hidden;
-  z-index: 1;
+  z-index: 8;
 
   &.show {
     visibility: visible;
