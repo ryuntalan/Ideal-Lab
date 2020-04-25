@@ -304,10 +304,11 @@ h3 {
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2); }
 
 .person-desc {
-  margin: 0px 80px;
+  margin: 0px 20px;
   line-height: 35px;
   font-size: 17px;
-  font-weight: 100; }
+  font-weight: 100;
+  width: 650px; }
 
 .students {
   background-color: #52658f;
@@ -513,9 +514,9 @@ input {
     margin-right: auto;
     width: 800px; }
   .professor {
-    padding: 0px; }
+    padding: 50px 0px; }
   .students {
-    padding: 0px; }
+    padding: 50px 0px; }
   .person-img {
     width: 350px;
     display: block;
@@ -524,6 +525,11 @@ input {
     margin-top: 10px; }
   .person-title {
     padding-top: 20px; }
+  .person-desc {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column; }
   .news-border {
     margin: 15px auto;
     padding: 20px;
@@ -651,12 +657,16 @@ input {
   .person-title {
     padding-top: 20px; }
   .person-desc {
-    margin: 30px;
-    line-height: 28px; }
+    line-height: 28px;
+    width: 500px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column; }
   .professor {
-    padding: 0px; }
+    padding: 50px 0px; }
   .students {
-    padding: 0px; }
+    padding: 50px 0px; }
   .news-border {
     margin: 15px auto;
     padding: 20px;
@@ -837,8 +847,12 @@ input {
     margin-top: 10px;
     margin-bottom: -10px; }
   .person-desc {
-    margin: 10px;
-    line-height: 28px; }
+    line-height: 28px;
+    width: 300px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column; }
   .news-border {
     margin: 15px auto;
     padding: 20px;

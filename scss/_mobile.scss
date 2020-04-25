@@ -13,11 +13,11 @@
   }
 
   .professor {
-    padding: 0px;
+    padding: 50px 0px;
   }
 
   .students {
-    padding: 0px;
+    padding: 50px 0px;
   }
 
   .person-img {
@@ -32,6 +32,12 @@
     padding-top: 20px;
   }
 
+  .person-desc {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+  }
   //news
   .news-border {
     margin: 15px auto;
@@ -106,18 +112,21 @@
   }
 
   .person-desc {
-    margin: 30px;
     line-height: 28px;
+    width: 500px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
   }
 
   .professor {
-    padding: 0px;
+    padding: 50px 0px;
   }
 
   .students {
-    padding: 0px;
+    padding: 50px 0px;
   }
-
   //news
   .news-border {
     margin: 15px auto;
@@ -277,8 +286,12 @@
   }
 
   .person-desc {
-    margin: 10px;
     line-height: 28px;
+    width: 300px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
   }
 
   //lab news
