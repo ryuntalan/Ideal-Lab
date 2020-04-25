@@ -189,18 +189,18 @@
   //projects
 
   hr.line {
-    width: 400px;
-  }
-
-  .first-sec {
-    margin-top: 50px;
+    width: 350px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   .project-sec {
     display: flex;
+    justify-content: center;
+    margin: auto;
     flex-direction: column-reverse;
-    width: 400px;
-    padding: 50px;
+    width: 320px;
+    padding: 0px;
   }
 
   .flip-sec {
@@ -214,13 +214,21 @@
   .project-img {
     display: flex;
 
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 320px;
     margin: auto;
   }
 
   .project-title {
     font-weight: 400;
+  }
+
+  .project {
+    width: 320px;
+  }
+
+  .first-sec {
+    margin-top: 70px;
   }
 
   //people
@@ -233,7 +241,7 @@
     padding: 60px 10px;
   }
   .info-card {
-    width: 300px;
+    width: 350px;
     display: block;
   }
 

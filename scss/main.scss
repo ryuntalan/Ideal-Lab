@@ -294,6 +294,7 @@ h3 {
 
 .project {
   margin: auto;
+  width: 600px;
 }
 
 //Publications
@@ -520,6 +521,13 @@ footer {
 
   color: $text-color;
   height: 50px;
+}
+
+//button
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 @import "mobile";
