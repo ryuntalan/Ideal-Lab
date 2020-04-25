@@ -41,7 +41,7 @@ li a {
   text-align: center;
   padding: 14px 14px;
   text-decoration: none;
-  font-weight: 800;
+  font-weight: 400;
   letter-spacing: 0.07em;
   transition: all 0.3s ease-out; }
   li a.contact {
@@ -150,7 +150,7 @@ li a:hover {
 
 .lab-desc {
   text-align: left;
-  font-weight: lighter;
+  font-weight: 400;
   display: flex;
   justify-content: center;
   margin: 15px auto;
@@ -179,7 +179,8 @@ li a:hover {
   padding: 25px;
   margin: 10px;
   background-color: #0c0c0c;
-  border-radius: 20px; }
+  border-radius: 20px;
+  font-weight: 200; }
 
 .news-link {
   text-decoration: none;
@@ -297,7 +298,7 @@ h3 {
   color: #000000;
   margin: auto;
   padding: 15px;
-  width: auto;
+  width: 1200px;
   display: flex;
   justify-content: space-evenly;
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2); }
@@ -339,7 +340,7 @@ h3 {
 .resource-name {
   width: 20%;
   text-align: center;
-  font-weight: bolder;
+  font-weight: 600;
   font-size: 18px; }
 
 #resources tr:nth-child(even) {
@@ -509,7 +510,12 @@ input {
   .info-card {
     display: block;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    width: 800px; }
+  .professor {
+    padding: 0px; }
+  .students {
+    padding: 0px; }
   .person-img {
     width: 350px;
     display: block;
@@ -634,7 +640,8 @@ input {
     width: 500px; }
   .info-card {
     display: block;
-    font-size: 14px; }
+    font-size: 14px;
+    width: 600px; }
   .person-img {
     width: 270px;
     display: block;
@@ -646,6 +653,10 @@ input {
   .person-desc {
     margin: 30px;
     line-height: 28px; }
+  .professor {
+    padding: 0px; }
+  .students {
+    padding: 0px; }
   .news-border {
     margin: 15px auto;
     padding: 20px;
@@ -773,12 +784,14 @@ input {
     font-size: 0.8rem;
     margin-bottom: 1rem; }
   .welcome-message {
-    font-size: 32px; }
+    font-size: 28px; }
   .lab-desc {
     width: 335px; }
   .home-btn {
     font-size: 12px;
-    padding: 10px 15px; }
+    padding: 10px 15px;
+    z-index: 10;
+    opacity: 1; }
   .lab-title {
     font-size: 24px; }
   hr.line {

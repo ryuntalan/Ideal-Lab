@@ -9,6 +9,15 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 800px;
+  }
+
+  .professor {
+    padding: 0px;
+  }
+
+  .students {
+    padding: 0px;
   }
 
   .person-img {
@@ -81,6 +90,7 @@
   .info-card {
     display: block;
     font-size: 14px;
+    width: 600px;
   }
 
   .person-img {
@@ -98,6 +108,14 @@
   .person-desc {
     margin: 30px;
     line-height: 28px;
+  }
+
+  .professor {
+    padding: 0px;
+  }
+
+  .students {
+    padding: 0px;
   }
 
   //news
@@ -170,7 +188,7 @@
   //home
 
   .welcome-message {
-    font-size: 32px;
+    font-size: 28px;
   }
 
   .lab-desc {
@@ -180,6 +198,8 @@
   .home-btn {
     font-size: 12px;
     padding: 10px 15px;
+    z-index: 10;
+    opacity: 1;
   }
 
   .lab-title {

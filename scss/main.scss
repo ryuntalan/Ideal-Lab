@@ -59,7 +59,7 @@ li a {
   text-align: center;
   padding: 14px 14px;
   text-decoration: none;
-  font-weight: 800;
+  font-weight: 400;
   letter-spacing: 0.07em;
   @include easeOut();
 
@@ -199,7 +199,7 @@ li a:hover {
 
 .lab-desc {
   text-align: left;
-  font-weight: lighter;
+  font-weight: 400;
   display: flex;
   justify-content: center;
   margin: 15px auto;
@@ -235,6 +235,7 @@ li a:hover {
   margin: 10px;
   background-color: darken(#111, 2);
   border-radius: 20px;
+  font-weight: 200;
 }
 
 .news-link {
@@ -378,7 +379,7 @@ h3 {
   margin: auto;
   padding: 15px;
 
-  width: auto;
+  width: 1200px;
   display: flex;
   justify-content: space-evenly; //check space evenly
   box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
@@ -430,7 +431,7 @@ h3 {
 .resource-name {
   width: 20%;
   text-align: center;
-  font-weight: bolder;
+  font-weight: 600;
   font-size: 18px;
 }
 
