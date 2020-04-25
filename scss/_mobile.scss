@@ -110,7 +110,8 @@
   .lab-desc {
     text-align: left;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 15px;
+    width: 450px;
   }
 
   .lab-article-section {
@@ -176,8 +177,50 @@
     width: 335px;
   }
 
+  .home-btn {
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+
   .lab-title {
     font-size: 24px;
+  }
+
+  //projects
+
+  hr.line {
+    width: 400px;
+  }
+
+  .first-sec {
+    margin-top: 50px;
+  }
+
+  .project-sec {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 400px;
+    padding: 50px;
+  }
+
+  .flip-sec {
+    flex-direction: column;
+  }
+
+  .project-desc {
+    line-height: 1.8em;
+  }
+
+  .project-img {
+    display: flex;
+
+    width: 300px;
+    height: 300px;
+    margin: auto;
+  }
+
+  .project-title {
+    font-weight: 400;
   }
 
   //people

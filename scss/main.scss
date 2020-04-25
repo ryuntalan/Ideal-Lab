@@ -158,7 +158,8 @@ li a:hover {
   border-color: transparent;
   color: #000000;
   font-size: 15px;
-  padding: 10px;
+  padding: 12px 17px;
+
   margin-bottom: 10px;
   border-radius: 5px;
   font-weight: 400;
@@ -199,6 +200,7 @@ li a:hover {
   display: flex;
   justify-content: center;
   margin: 15px auto;
+  margin-bottom: 0px;
 
   width: 580px;
   font-size: 17px;
@@ -283,6 +285,7 @@ h3 {
   object-fit: cover;
   border-radius: 10px;
   margin: 0px 50px;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 .project-title {
@@ -374,6 +377,7 @@ h3 {
   width: auto;
   display: flex;
   justify-content: space-evenly; //check space evenly
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 .person-desc {

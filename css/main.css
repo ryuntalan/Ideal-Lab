@@ -119,7 +119,7 @@ li a:hover {
   border-color: transparent;
   color: #000000;
   font-size: 15px;
-  padding: 10px;
+  padding: 12px 17px;
   margin-bottom: 10px;
   border-radius: 5px;
   font-weight: 400;
@@ -151,6 +151,7 @@ li a:hover {
   display: flex;
   justify-content: center;
   margin: 15px auto;
+  margin-bottom: 0px;
   width: 580px;
   font-size: 17px;
   line-height: 1.8em; }
@@ -218,7 +219,8 @@ h3 {
   height: 420px;
   object-fit: cover;
   border-radius: 10px;
-  margin: 0px 50px; }
+  margin: 0px 50px;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2); }
 
 .project-title {
   font-weight: 400; }
@@ -293,7 +295,8 @@ h3 {
   padding: 15px;
   width: auto;
   display: flex;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2); }
 
 .person-desc {
   margin: 0px 80px;
@@ -640,7 +643,8 @@ footer {
   .lab-desc {
     text-align: left;
     font-weight: 300;
-    font-size: 14px; }
+    font-size: 15px;
+    width: 450px; }
   .lab-article-section {
     display: flex;
     flex-direction: column; }
@@ -762,8 +766,31 @@ footer {
     font-size: 32px; }
   .lab-desc {
     width: 335px; }
+  .home-btn {
+    font-size: 12px;
+    padding: 10px 15px; }
   .lab-title {
     font-size: 24px; }
+  hr.line {
+    width: 400px; }
+  .first-sec {
+    margin-top: 50px; }
+  .project-sec {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 400px;
+    padding: 50px; }
+  .flip-sec {
+    flex-direction: column; }
+  .project-desc {
+    line-height: 1.8em; }
+  .project-img {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin: auto; }
+  .project-title {
+    font-weight: 400; }
   .students {
     padding: 60px 10px; }
   .professor {
