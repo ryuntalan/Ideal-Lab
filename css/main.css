@@ -68,7 +68,9 @@ li a:hover {
 
 .welcome-message {
   transition: all 1s ease-out;
-  margin-bottom: 30px; }
+  margin-top: 130px;
+  margin-bottom: 15px;
+  font-size: 69px; }
 
 .parralax {
   position: relative;
@@ -83,11 +85,11 @@ li a:hover {
 
 .pimg1 {
   padding-top: 100px;
-  padding-bottom: 1000px;
+  padding-bottom: 750px;
   opacity: 0.9;
   background-image: url("../img/starrybackground.jpg");
   min-height: 100%;
-  background-position-y: 35%; }
+  background-position-y: 15%; }
 
 .ptext {
   position: absolute;
@@ -120,13 +122,15 @@ li a:hover {
   background-color: #e9e9e9;
   border-color: transparent;
   color: #000000;
-  font-size: 15px;
-  padding: 12px 17px;
+  font-size: 20px;
+  padding: 12px 40px;
   z-index: 3;
   margin-bottom: 10px;
-  border-radius: 5px;
+  border-radius: 15px;
+  opacity: 90%;
   font-weight: 400;
   letter-spacing: 1px;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
   -webkit-appearance: none; }
   .home-btn:hover {
     background-color: #dee8ff;
@@ -136,59 +140,45 @@ li a:hover {
   .pimg1 {
     background-attachment: scroll; } }
 
-.news-border {
-  opacity: 0.9;
-  border-radius: 20px;
-  background-color: #111;
-  color: #ffffff;
-  margin: 150px auto;
-  padding: 30px;
-  width: 1200px; }
+#learn-more {
+  padding-top: 20px; }
+
+.our-lab {
+  width: 1000px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+  padding-bottom: 100px; }
 
 .lab-title {
-  font-size: 28px;
-  font-weight: 400; }
+  font-weight: 600;
+  font-size: 40px; }
 
 .lab-desc {
-  text-align: left;
-  font-weight: 400;
+  font-size: 21px;
+  line-height: 160%;
+  width: 770px;
+  margin: auto;
+  margin-top: 22px;
+  margin-bottom: 50px; }
+
+.learn-cards {
   display: flex;
-  justify-content: center;
-  margin: 15px auto;
-  margin-bottom: 0px;
-  width: 580px;
-  font-size: 17px;
-  line-height: 1.8em; }
+  justify-content: space-evenly;
+  margin-bottom: 80px; }
 
-.lab-news {
-  font-size: 28px;
-  font-weight: 400;
-  letter-spacing: 1px; }
+.icon-design {
+  border-radius: 15px;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: -7px; }
 
-.lab-article-section {
-  display: flex;
-  justify-content: space-evenly; }
-
-.article-title {
-  font-weight: 400; }
-
-.article-desc {
-  text-align: left; }
-
-.lab-article {
-  font-size: 16px;
-  padding: 25px;
-  margin: 10px;
-  background-color: #0c0c0c;
-  border-radius: 20px;
-  font-weight: 200; }
-
-.news-link {
-  text-decoration: none;
-  color: #ffffff; }
-  .news-link:visited {
-    text-decoration: none;
-    color: #ffffff; }
+.learn-card:hover {
+  opacity: 0.7;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: all 0.3s ease-in; }
 
 h1,
 h2,
@@ -513,7 +503,7 @@ input {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 800px; }
+    width: 750px; }
   .professor {
     padding: 50px 0px; }
   .students {
@@ -641,6 +631,15 @@ input {
     transition-delay: 0.24s; }
   .nav-item:nth-child(4) {
     transition-delay: 0.32s; }
+  .our-lab {
+    width: 700px; }
+  .lab-title {
+    font-size: 30px; }
+  .lab-desc {
+    font-size: 20px;
+    width: 590px; }
+  .icon-design {
+    height: 270px; }
   .form-control {
     width: 400px; }
   .border {
@@ -672,23 +671,6 @@ input {
     margin: 15px auto;
     padding: 20px;
     width: 500px; }
-  .lab-desc {
-    text-align: left;
-    font-weight: 300;
-    font-size: 15px;
-    width: 450px; }
-  .lab-article-section {
-    display: flex;
-    flex-direction: column; }
-  .lab-news {
-    font-size: 26px;
-    font-weight: 400;
-    letter-spacing: 1px; }
-  .lab-article {
-    font-size: 14px;
-    font-weight: 300;
-    padding: 10px;
-    margin: 10px; }
   .book-img {
     width: 180px;
     margin: auto 30px; }
@@ -795,16 +777,24 @@ input {
     font-size: 0.8rem;
     margin-bottom: 1rem; }
   .welcome-message {
-    font-size: 28px; }
+    font-size: 30px; }
+  .our-lab {
+    width: 370px;
+    margin-top: 50px; }
+  .lab-title {
+    font-size: 17px; }
   .lab-desc {
-    width: 335px; }
+    font-size: 14px;
+    width: 330px; }
+  .icon-design {
+    height: 150px; }
+  .learn-cards {
+    margin-bottom: 150px; }
   .home-btn {
-    font-size: 12px;
-    padding: 10px 15px;
+    font-size: 17px;
+    padding: 10px 35px;
     z-index: 10;
     opacity: 1; }
-  .lab-title {
-    font-size: 24px; }
   hr.line {
     width: 350px;
     margin-top: 30px;
@@ -854,27 +844,6 @@ input {
     margin: auto;
     justify-content: center;
     flex-direction: column; }
-  .news-border {
-    margin: 15px auto;
-    padding: 20px;
-    width: 350px;
-    margin-top: 45px; }
-  .lab-desc {
-    text-align: left;
-    font-weight: 300;
-    font-size: 12px; }
-  .lab-news {
-    font-size: 24px;
-    font-weight: 400;
-    letter-spacing: 1px; }
-  .lab-article-section {
-    display: flex;
-    flex-direction: column; }
-  .lab-article {
-    font-size: 12px;
-    font-weight: 300;
-    padding: 10px;
-    margin: 10px; }
   .border {
     width: 350px; }
   .book-img {

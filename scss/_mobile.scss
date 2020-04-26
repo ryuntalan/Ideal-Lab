@@ -9,7 +9,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
+    width: 750px;
   }
 
   .professor {
@@ -85,6 +85,24 @@
 @include mediaMd {
   @import "menu";
 
+  //home
+  .our-lab {
+    width: 700px;
+  }
+
+  .lab-title {
+    font-size: 30px;
+  }
+
+  .lab-desc {
+    font-size: 20px;
+    width: 590px;
+  }
+
+  .icon-design {
+    height: 270px;
+  }
+
   .form-control {
     width: 400px;
   }
@@ -134,31 +152,6 @@
     width: 500px;
   }
 
-  .lab-desc {
-    text-align: left;
-    font-weight: 300;
-    font-size: 15px;
-    width: 450px;
-  }
-
-  .lab-article-section {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .lab-news {
-    font-size: 26px;
-    font-weight: 400;
-    letter-spacing: 1px;
-  }
-
-  .lab-article {
-    font-size: 14px;
-    font-weight: 300;
-    padding: 10px;
-    margin: 10px;
-  }
-
   .book-img {
     width: 180px;
     margin: auto 30px;
@@ -197,22 +190,37 @@
   //home
 
   .welcome-message {
-    font-size: 28px;
+    font-size: 30px;
   }
 
-  .lab-desc {
-    width: 335px;
-  }
-
-  .home-btn {
-    font-size: 12px;
-    padding: 10px 15px;
-    z-index: 10;
-    opacity: 1;
+  //home
+  .our-lab {
+    width: 370px;
+    margin-top: 50px;
   }
 
   .lab-title {
-    font-size: 24px;
+    font-size: 17px;
+  }
+
+  .lab-desc {
+    font-size: 14px;
+    width: 330px;
+  }
+
+  .icon-design {
+    height: 150px;
+  }
+
+  .learn-cards {
+    margin-bottom: 150px;
+  }
+
+  .home-btn {
+    font-size: 17px;
+    padding: 10px 35px;
+    z-index: 10;
+    opacity: 1;
   }
 
   //projects
@@ -292,38 +300,6 @@
     margin: auto;
     justify-content: center;
     flex-direction: column;
-  }
-
-  //lab news
-  .news-border {
-    margin: 15px auto;
-    padding: 20px;
-    width: 350px;
-    margin-top: 45px;
-  }
-
-  .lab-desc {
-    text-align: left;
-    font-weight: 300;
-    font-size: 12px;
-  }
-
-  .lab-news {
-    font-size: 24px;
-    font-weight: 400;
-    letter-spacing: 1px;
-  }
-
-  .lab-article-section {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .lab-article {
-    font-size: 12px;
-    font-weight: 300;
-    padding: 10px;
-    margin: 10px;
   }
 
   //make home screen mobile

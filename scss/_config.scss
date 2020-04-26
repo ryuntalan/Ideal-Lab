@@ -17,6 +17,10 @@ $btn-color: #dee8ff;
   transition: all 1s ease-out;
 }
 
+@mixin highlight {
+  transition: all 0.3s ease-in;
+}
+
 //Media Query Mixins
 @mixin mediaSm {
   @media screen and (max-width: 500px) {
