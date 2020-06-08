@@ -6,7 +6,7 @@ Define: How can I create a website that highlights the IDEAL Lab's Goals and can
 
 Ideate: Brainstormed/ researched possible pages and resources needed for a lab website. Created a sitemap to organize and structure what the website needs.
 
-Prototyped: Lo-fi Wireframing. Started developing the website. Picked-out typography (Helvetica - simple, neutral) and color palette(clean and prof colors).
+Prototyped: Lo-fi Wireframing. Started developing the website. Picked-out typography (Muli - simple, neutral) and color palette(clean and prof colors).
 
 Test: Weekly check-ins with Dr. Bencharit and constantly adding new content to the website. 
 
