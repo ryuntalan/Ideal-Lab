@@ -282,7 +282,15 @@ h3 {
 
 .professor {
   background-color: #4e6089;
-  padding: 100px; }
+  padding: 40px; }
+
+.alumni {
+  background-color: #4e6089;
+  padding: 40px; }
+
+.students {
+  background-color: #52658f;
+  padding: 40px; }
 
 .info-card {
   background-color: #e8e8e8;
@@ -301,10 +309,6 @@ h3 {
   font-size: 17px;
   font-weight: 100;
   width: 650px; }
-
-.students {
-  background-color: #52658f;
-  padding: 100px; }
 
 .ppl-heading {
   font-weight: 500;
@@ -507,6 +511,8 @@ input {
     width: 750px; }
   .professor {
     padding: 50px 0px; }
+  .alumni {
+    padding: 50px 0px; }
   .students {
     padding: 50px 0px; }
   .person-img {
@@ -665,6 +671,8 @@ input {
     justify-content: center;
     flex-direction: column; }
   .professor {
+    padding: 50px 0px; }
+  .alumni {
     padding: 50px 0px; }
   .students {
     padding: 50px 0px; }
@@ -825,6 +833,8 @@ input {
   .students {
     padding: 60px 10px; }
   .professor {
+    padding: 60px 10px; }
+  .alumni {
     padding: 60px 10px; }
   .info-card {
     width: 350px;

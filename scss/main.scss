@@ -356,7 +356,17 @@ h3 {
 
 .professor {
   background-color: darken($tertiary-color, 2);
-  padding: 100px;
+  padding: 40px;
+}
+
+.alumni {
+  background-color: darken($tertiary-color, 2);
+  padding: 40px;
+}
+
+.students {
+  background-color: $tertiary-color;
+  padding: 40px;
 }
 
 .info-card {
@@ -378,11 +388,6 @@ h3 {
   font-size: 17px;
   font-weight: 100;
   width: 650px;
-}
-
-.students {
-  background-color: $tertiary-color;
-  padding: 100px;
 }
 
 .ppl-heading {
