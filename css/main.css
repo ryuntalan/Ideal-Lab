@@ -25,6 +25,9 @@ hr.line {
   border-top: 2px solid #333a56;
   opacity: 0.2; }
 
+.active {
+  text-decoration: underline; }
+
 ul {
   list-style-type: none;
   margin: 0;
